@@ -1,0 +1,39 @@
+#maindiv{
+    height: auto;
+}
+.card{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media(max-width:1400px){
+    .card{
+        width: 100% !important;
+    }
+    #maindiv{
+        height: 100vh;
+    }
+    #table td{
+    padding: 0;
+    }
+}
+#delete{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(177, 2, 2);
+}
+#edit-text{
+    background-color: transparent;
+    border: none;
+}
+#edit-text:focus{
+    outline: none;
+    border: none;
+}
+#edit-text:active{
+    outline: none;
+    border: none;
+}
+
